@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    overflow:hidden;
+}
+
+body{
+    background-color: #ffffff;
+    
+    
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding-top:40px;
+
+   
+}
+.amount{
+    padding-left:200px;
+    padding-top:50px;
+    font-size:larger;
+    
+  
+}
+h2{
+   padding-left:150px;
+    font-size: 5rem;
+    color:#13144A;
+     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 90px; font-style: normal; font-variant: normal; font-weight: 600; line-height: 90px; 
+    };
+
+p{
+    padding-bottom:5px;
+}
+.dropdown{
+    margin:25px;
+    margin-top:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.container{
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 70vh;
+}
+form{
+    width:1200px;
+    height:400px;
+    background-color:#E1E0FF;
+    padding-bottom: 50px;
+    border-radius: 50px;
+  
+}
+form button,input{
+    
+    width:70%;
+    border: 1px solid lightgray;
+
+}
+form select{
+    width:100%;
+    border:none;
+    outline:none;
+}
+
+
+form input{
+
+    height: 40px;
+    width:800px;
+    padding:0.5rem;
+    border-radius:40px;
+
+}
+
+#exchangebutton{
+    color:white;
+    background-color: #102C57;
+    height: 4rem;
+    border-radius: 40px;
+    padding-top:20px;
+    padding-bottom:30px;
+    margin-top:40px;
+    margin-left:200px;
+    font-size: 1rem;
+    cursor:pointer;
+
+}
+.select-country img{
+    max-width:2rem;
+    padding-left:1rem;
+}
+.select-country{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius:5%;
+
+}
+.msg{
+    height:2rem;
+    width: 25rem;
+    margin-left:400px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: larger ;
+  padding-top:1rem;
+    padding-left:1rem;
+    color:black;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: large;
+}
